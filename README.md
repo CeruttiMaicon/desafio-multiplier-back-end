@@ -8,7 +8,7 @@
 
 # Rodando o projeto inicial(laravel)
 
-[x] php artisan serve
+- [x] php artisan serve
 
 
 <p align="center">
