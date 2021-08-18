@@ -27,7 +27,7 @@
 - [x] php artisan make:migration create_mesas_table --create=mesas
 - [x] php artisan make:migration create_clientes_table --create=clientes
 - [x] php artisan make:migration create_pedidos_table --create=pedidos
-
+- [x] php artisan make:migration create_permission_table --create=permission
 
 * -> Rodando as Migrations -> php artisan migrate
 
