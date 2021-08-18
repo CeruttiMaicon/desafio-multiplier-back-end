@@ -10,7 +10,7 @@
 
 - [x] php artisan serve
 
-* http://localhost/multiplier/public/
+* http://127.0.0.1:8000
 
 # Acessando o DB Localmente
 
