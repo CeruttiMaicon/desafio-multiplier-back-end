@@ -20,6 +20,12 @@
 
 * multiplieron
 
+# Criando a Migrations
+
+- [x] php artisan make:migration create_progress_table --create=progress
+- [x] php artisan make:migration create_cardapio_table --create=cardapio
+
+
 <p align="center">
   <img src="https://multiplier.com.br/assets/multiplier.svg" width="320" alt="Nest Logo" />
 </p>
