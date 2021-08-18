@@ -10,6 +10,13 @@
 
 - [x] php artisan serve
 
+# Acessando o DB Localmente
+
+- [x] hhttp://localhost/phpmyadmin/index.php?route=/server/databases
+
+- [x] Crie o Banco de Dados 
+
+* multiplieron
 
 <p align="center">
   <img src="https://multiplier.com.br/assets/multiplier.svg" width="320" alt="Nest Logo" />
