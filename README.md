@@ -20,11 +20,22 @@
 
 * multiplieron
 
-# Criando a Migrations
+# Criando as Migrations
 
 - [x] php artisan make:migration create_progress_table --create=progress
 - [x] php artisan make:migration create_cardapio_table --create=cardapio
+- [x] php artisan make:migration create_mesas_table --create=mesas
+- [x] php artisan make:migration create_clientes_table --create=clientes
+- [x] php artisan make:migration create_pedidos_table --create=pedidos
 
+# Criando as Seeders
+
+- [x] php artisan make:seeder MesasTableSeeder
+- [x] php artisan make:seeder ClientesTableSeeder  
+- [x] php artisan make:seeder CardapioTableSeeder 
+- [x] php artisan make:seeder PedidosTableSeeder
+- [x] php artisan make:seeder ProgressTableSeeder
+- [x] php artisan make:seeder UsersTableSeeder
 
 <p align="center">
   <img src="https://multiplier.com.br/assets/multiplier.svg" width="320" alt="Nest Logo" />

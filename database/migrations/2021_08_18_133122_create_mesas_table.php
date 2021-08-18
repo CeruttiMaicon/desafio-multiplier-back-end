@@ -4,20 +4,19 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProgressTable extends Migration
+class CreateMesasTable extends Migration
 {
     public function up()
     {
-        Schema::create('progress', function (Blueprint $table) {
+        Schema::create('mesas', function (Blueprint $table) {
             $table->id();
-            $table->string('name', 70);
-            $table->timestamps();
-
+            $table->integer('number')->unique();
+            $table->string('description', 150)->nullable();
         });
     }
 
     public function down()
     {
-        Schema::dropIfExists('progress');
+        Schema::dropIfExists('mesas');
     }
 }
