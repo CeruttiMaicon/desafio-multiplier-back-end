@@ -1,10 +1,10 @@
 # Criando um projeto Laravel
 
-[x] composer create-project laravel/laravel Multiplier 
+- [X] composer create-project laravel/laravel Multiplier 
 
 # Entrando na pasta do projeto 
 
-[x] cd multiplier
+- [X] cd multiplier
 
 # Rodando o projeto inicial(laravel)
 
