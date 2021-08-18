@@ -10,6 +10,8 @@
 
 - [x] php artisan serve
 
+* http://localhost/multiplier/public/
+
 # Acessando o DB Localmente
 
 - [x] hhttp://localhost/phpmyadmin/index.php?route=/server/databases
