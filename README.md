@@ -28,14 +28,20 @@
 - [x] php artisan make:migration create_clientes_table --create=clientes
 - [x] php artisan make:migration create_pedidos_table --create=pedidos
 
+
+* -> Rodando as Migrations -> php artisan migrate
+
+
 # Criando as Seeders
 
-- [x] php artisan make:seeder MesasTableSeeder
-- [x] php artisan make:seeder ClientesTableSeeder  
-- [x] php artisan make:seeder CardapioTableSeeder 
-- [x] php artisan make:seeder PedidosTableSeeder
-- [x] php artisan make:seeder ProgressTableSeeder
-- [x] php artisan make:seeder UsersTableSeeder
+- [x] php artisan make:seeder MesasSeeder
+- [x] php artisan make:seeder ClientesSeeder  
+- [x] php artisan make:seeder CardapioSeeder 
+- [x] php artisan make:seeder PedidosSeeder
+- [x] php artisan make:seeder ProgressSeeder
+- [x] php artisan make:seeder UsersSeeder
+
+* -> Rodando a Seeder -> php artisan db:seed
 
 <p align="center">
   <img src="https://multiplier.com.br/assets/multiplier.svg" width="320" alt="Nest Logo" />
