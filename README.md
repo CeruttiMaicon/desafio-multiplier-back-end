@@ -45,13 +45,15 @@
 
 # Criando os Controllers 
 
+* -> php artisan make:controller AuthController
 * -> php artisan make:controller MesasController 
 * -> php artisan make:controller ClientesController
 * -> php artisan make:controller CardapioController
 * -> php artisan make:controller NivelController 
 * -> php artisan make:controller PedidosController
 * -> php artisan make:controller ProgressController
-* -> php artisan make:controller CozinheiroOrdersController
+* -> php artisan make:controller GarcomOrdersController
+* -> php artisan make:controller FogaoOrdersController
 
 
 
