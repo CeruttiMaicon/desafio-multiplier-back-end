@@ -31,7 +31,6 @@
 
 * -> Rodando as Migrations -> php artisan migrate
 
-
 # Criando as Seeders
 
 - [x] php artisan make:seeder MesasSeeder
@@ -43,6 +42,18 @@
 - [x] php artisan make:seeder UsersSeeder
 
 * -> Rodando a Seeder -> php artisan db:seed
+
+# Criando os Controllers 
+
+* -> php artisan make:controller MesasController 
+* -> php artisan make:controller ClientesController
+* -> php artisan make:controller CardapioController
+* -> php artisan make:controller NivelController 
+* -> php artisan make:controller PedidosController
+* -> php artisan make:controller ProgressController
+* -> php artisan make:controller CozinheiroOrdersController
+
+
 
 <p align="center">
   <img src="https://multiplier.com.br/assets/multiplier.svg" width="320" alt="Nest Logo" />
