@@ -34,7 +34,7 @@
 # Criando as Seeders
 
 - [x] php artisan make:seeder MesasSeeder
-- [x] php artisan make:seeder ClientesSeeder  
+- [x] php artisan make:seeder ClientesSeeder 
 - [x] php artisan make:seeder CardapioSeeder 
 - [x] php artisan make:seeder NivelSeeder
 - [x] php artisan make:seeder PedidosSeeder
