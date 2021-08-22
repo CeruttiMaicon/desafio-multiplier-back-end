@@ -39,6 +39,7 @@
 - [x] php artisan make:seeder NivelSeeder
 - [x] php artisan make:seeder PedidosSeeder
 - [x] php artisan make:seeder ProgressSeeder
+- [x] php artisan make:seeder RolesSeeder
 - [x] php artisan make:seeder UsersSeeder
 
 * -> Rodando a Seeder -> php artisan db:seed
