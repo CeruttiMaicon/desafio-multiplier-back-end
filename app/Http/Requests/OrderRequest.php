@@ -13,7 +13,7 @@ class OrderRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,10 @@ class OrderRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            "board_id" => "required|numeric",
+            "dish_id" => "required|numeric",
+            "client_id" => "required|numeric",
+            "status_id" => "required|numeric"
         ];
     }
 }

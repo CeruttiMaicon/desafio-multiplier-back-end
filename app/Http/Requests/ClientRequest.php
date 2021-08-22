@@ -2,18 +2,16 @@
 
 namespace App\Http\Requests;
 
-use Illuminate\Foundation\Http\FormRequest;
-
-class ClientRequest extends FormRequest
+class ClientRequest extends BaseRequest
 {
     /**
      * Determine if the user is authorized to make this request.
      *
      * @return bool
      */
-    public function authorize()
+    public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -21,10 +19,13 @@ class ClientRequest extends FormRequest
      *
      * @return array
      */
-    public function rules()
+    public function rules(): array
     {
+        $id = $this->getRegisterId();
+
         return [
-            //
+            'name' => 'required|max:45',
+            'cpf' => 'required|digits:11|unique:clients,cpf,' . $id,
         ];
     }
 }
