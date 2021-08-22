@@ -2,10 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Client;
+use App\Http\Requests\ClientRequest;
+use App\Repositories\ClientRepository;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
-class ClientesController extends Controller
+class ClientsController extends Controller
 {
+
     protected $clientRepository;
 
     public function __construct(ClientRepository $clientRepository)

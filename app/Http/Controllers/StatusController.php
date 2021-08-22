@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Repositories\StatusRepository;
+use Illuminate\Http\JsonResponse;
 
-class ProgressController extends Controller
+class StatusController extends Controller
 {
     protected $statusRepository;
 
@@ -13,6 +14,11 @@ class ProgressController extends Controller
         $this->statusRepository = $statusRepository;
     }
 
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function list(): JsonResponse
     {
         $items = $this->statusRepository->list();

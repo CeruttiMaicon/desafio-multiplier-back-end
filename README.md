@@ -55,6 +55,15 @@
 * -> php artisan make:controller GarcomOrdersController
 * -> php artisan make:controller FogaoOrdersController
 
+# Criando as Requests
+
+* -> php artisan make:request AuthRequest
+* -> php artisan make:request BaseRequest 
+* -> php artisan make:request BoardRequest
+* -> php artisan make:request ClientRequest
+* -> php artisan make:request DishRequest 
+* -> php artisan make:request OrderRequest  
+
 <p align="center">
   <img src="https://multiplier.com.br/assets/multiplier.svg" width="320" alt="Nest Logo" />
 </p>
